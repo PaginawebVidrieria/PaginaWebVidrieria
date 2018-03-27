@@ -1,7 +1,7 @@
 $(document).ready( function () {
 	$("#btnAdd").on('click', function(event) {
 		event.preventDefault();
-		alert("Procesando");
+		alert("Ingresa a Java Script");
 		hacerOperaciones();
 		
 	});	
@@ -10,9 +10,6 @@ $(document).ready( function () {
 		
 		var nombre = $("#nombre").val();
 		var password = $("#password").val();
-		
-		var usuencriptado = Base64.encode(usuario);
-		var passencriptado = Base64.encode(password);		
 		
 		 $.ajax({
          type: "POST",
