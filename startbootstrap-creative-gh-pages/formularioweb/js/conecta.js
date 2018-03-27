@@ -1,7 +1,7 @@
 $(document).ready( function () {
 	$("#btnAdd").on('click', function(event) {
 		event.preventDefault();
-		alert("Ingresa a Java Script");
+		alert("Procesando");
 		hacerOperaciones();
 		
 	});	
