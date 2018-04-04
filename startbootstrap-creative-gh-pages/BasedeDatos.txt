@@ -1,0 +1,4 @@
+create database Vidrieria;
+use Vidrieria;
+create table Administrador (id int not null primary key auto_increment, nombre varchar(40), password varchar(40));
+insert into Administrador (nombre, password) values ('Ambrosio', 'admins1');
